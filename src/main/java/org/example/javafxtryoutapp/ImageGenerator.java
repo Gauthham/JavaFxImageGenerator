@@ -20,7 +20,7 @@ import java.util.Base64;
 public class ImageGenerator extends Application {
     // Using Stable Diffusion XL for better compatibility
     private static final String API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0";
-    private static String API_KEY = "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"; // Replace with your API key/
+    private static String API_KEY = ${HUGGING_FACE_API}; // Replace with your API key/
     // private static String API_KEY;
     private TextArea promptInput;
     private ImageView imageView;
